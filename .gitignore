@@ -1,0 +1,18 @@
+# Keep firmware, device data, downloaded binaries, and local builds out of Git.
+*.ipsw
+*.MSE
+*.mse
+*.img
+*.bin
+*.dfu
+*.exe
+*.dll
+*.zip
+*.log
+*.tmp
+.build/
+target/
+.venv/
+__pycache__/
+.env
+.env.*
